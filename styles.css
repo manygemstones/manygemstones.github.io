@@ -45,6 +45,16 @@ img {
   width: 100%;
 }
 
+h1,
+h2,
+h3,
+.brand,
+.section-label {
+  word-break: keep-all;
+  overflow-wrap: normal;
+  text-wrap: balance;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -306,9 +316,9 @@ p {
 h1 {
   margin-bottom: 14px;
   font-family: "Playfair Display", Georgia, serif;
-  font-size: clamp(52px, 7vw, 104px);
+  font-size: clamp(48px, 5.8vw, 86px);
   font-weight: 400;
-  line-height: 0.96;
+  line-height: 1.02;
   letter-spacing: 0;
   color: rgba(61, 55, 64, 0.78);
 }
@@ -700,6 +710,10 @@ h3 {
   line-height: 1.12;
 }
 
+.video-copy h2 span {
+  display: block;
+}
+
 .video-actions {
   display: flex;
   flex-wrap: wrap;
@@ -929,7 +943,7 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(48px, 17vw, 68px);
+    font-size: clamp(44px, 14vw, 62px);
   }
 
   .lead {
